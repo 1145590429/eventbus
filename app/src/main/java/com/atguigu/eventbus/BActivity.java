@@ -2,6 +2,7 @@ package com.atguigu.eventbus;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -24,6 +25,7 @@ public class BActivity extends Activity {
         initView();
 
         initData();
+        Log.i("TAG", "onCreate: ");
     }
 
     private void initData() {
